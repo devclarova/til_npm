@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import MapDiv from "./components/MapDiv";
+import AddForm from "./components/editor/AddForm";
 
 function App() {
   // js 자리
@@ -37,7 +38,7 @@ function App() {
   return (
     <div>
       <h1>지도출력</h1>
-      <MapDiv />
+      <AddForm />
     </div>
   );
 }
