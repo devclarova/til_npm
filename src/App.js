@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import MapDiv from "./components/MapDiv";
-import AddForm from "./components/editor/AddForm";
+import AniPage from "./pages/AniPage";
 
 function App() {
   // js 자리
@@ -37,8 +36,8 @@ function App() {
   // jsx 자리
   return (
     <div>
-      <h1>지도출력</h1>
-      <AddForm />
+      <h1>Anime</h1>
+      <AniPage />
     </div>
   );
 }
